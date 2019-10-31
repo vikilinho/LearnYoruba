@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:gravity="center_vertical"
+        android:background="@color/primaryLight"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:id="@+id/txt_number"
+        android:layout_width="421dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/numbers"
+        android:textColor="@color/primaryText" />
+
+    <TextView
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:background="@color/colorAccent"
+        android:id="@+id/txt_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/colours"
+        android:textColor="@color/primaryText" />
+
+    <TextView
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:background="#e040fb"
+        android:id="@+id/txt_phrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/greetings_and_common_phrases"
+        android:textColor="@color/primaryText" />
+
+    <TextView
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:id="@+id/txt_family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#fbc02d"
+        android:text="@string/common_words"
+        android:textColor="@color/primaryText" />
+
+</LinearLayout>

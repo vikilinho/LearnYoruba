@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EasyYoruba</string>
+    <string name="numbers">Numbers!</string>
+    <string name="family">Family</string>
+    <string name="phrases">Phrases</string>
+    <string name="colours">Colours</string>
+    <string name="greetings_and_common_phrases">Greetings and common phrases</string>
+    <string name="common_words">Common Words</string>
+</resources>
